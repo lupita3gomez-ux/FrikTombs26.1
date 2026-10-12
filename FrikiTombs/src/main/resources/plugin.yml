@@ -1,0 +1,12 @@
+name: FrikiTombs
+version: 1.0.6
+main: lat.frikicraft.frikitombs.FrikiTombs
+api-version: '26.1'
+author: FrikiCraft
+description: Plugin de tumbas personalizables con núcleo pesado y protección temporal para terceros.
+
+commands:
+  frikitombs:
+    description: Comando principal de FrikiTombs
+    aliases: [ftombs, tomb]
+    permission: frikitombs.admin

@@ -1,0 +1,27 @@
+settings:
+  lifetime: "24h"
+  protection: "10m"
+  create-with-keep-inventory: false
+  store-experience: true
+  expired-items: "DELETE" # DROP o DELETE
+  remove-empty-grave: true
+  placement-radius: 3
+  max-graves-per-player: 0 # 0 = ilimitado
+
+worlds:
+  mode: ALLOWLIST # ALL, ALLOWLIST o BLOCKLIST
+  allowlist: [world, world_nether, world_the_end]
+  blocklist: [ANARQUICO]
+  ignore-void-worlds: true
+
+messages:
+  prefix: "&8[&dFrikiTombs&8] "
+  grave-created: "&aTu tumba se creó en &f%world% %x% %y% %z% &7(Protegida por &e%protection%&7)."
+  grave-expired: "&eUna tumba ha expirado."
+  no-permission: "&cNo tienes permiso para realizar esta acción."
+  protected: "&cEsta tumba está protegida durante &f%time%&c más."
+  opened: "&aHas roto tu tumba y tus objetos han vuelto a tu inventario."
+  opened-other: "&aHas roto la tumba de &f%owner%&a y sus items han caído al suelo."
+  cant-open-gui: "&cDebes agacharte (shift) y dar clic izquierdo para romper la tumba."
+  no-safe-location: "&cNo se encontró lugar seguro o alcanzaste el límite de tumbas. Tus objetos caerán normalmente."
+  reloaded: "&aConfiguración recargada correctamente."
